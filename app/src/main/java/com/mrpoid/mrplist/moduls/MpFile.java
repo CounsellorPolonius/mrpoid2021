@@ -28,7 +28,7 @@ public class MpFile implements Comparable<MpFile> {
 
 	public MpFile() {
 		this.name = "..";
-		this.msg = "父目录";
+		this.msg = "Parent Directory";
 		this.isDir = true;
 		this.isParent = true;
 	}
@@ -75,7 +75,7 @@ public class MpFile implements Comparable<MpFile> {
 	public String getMsg() {
 		if(msg == null) {
 			if(getType() == FileType.FOLDER) {
-				msg = "文件夹";
+				msg = "Folder";
 			} else {
 				//get permission
 				msg = lastTimeS;

@@ -1,0 +1,164 @@
+{
+  "buildFiles": [
+    "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk",
+    "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "mr_gb2312-release-mr_vm_mini": {
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj/local/x86/objs/mr_vm_mini/mr_gb2312.o",
+      "toolchain": "toolchain-mr_vm_mini",
+      "abi": "mr_vm_mini",
+      "artifactName": "mr_gb2312",
+      "files": [
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\mr\\mr_gb2312.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr/include -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr -DANDROID -O2 -DTARGET_MOD -DMTK_MOD -DMR_VERSION\u003d2011 -DMR_PLAT_DRAWTEXT -DMR_PLAT_U2C -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\objs\\mr_vm_mini\\mr_gb2312.o"
+    },
+    "mythroad_mini-release-mr_vm_mini": {
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj/local/x86/objs/mr_vm_mini/mythroad_mini.o",
+      "toolchain": "toolchain-mr_vm_mini",
+      "abi": "mr_vm_mini",
+      "artifactName": "mythroad_mini",
+      "files": [
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\mr\\mythroad_mini.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr/include -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr -DANDROID -O2 -DTARGET_MOD -DMTK_MOD -DMR_VERSION\u003d2011 -DMR_PLAT_DRAWTEXT -DMR_PLAT_U2C -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\objs\\mr_vm_mini\\mythroad_mini.o"
+    },
+    "mr_util-release-mr_vm_mini": {
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj/local/x86/objs/mr_vm_mini/mr_util.o",
+      "toolchain": "toolchain-mr_vm_mini",
+      "abi": "mr_vm_mini",
+      "artifactName": "mr_util",
+      "files": [
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\mr\\mr_util.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr/include -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr -DANDROID -O2 -DTARGET_MOD -DMTK_MOD -DMR_VERSION\u003d2011 -DMR_PLAT_DRAWTEXT -DMR_PLAT_U2C -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\objs\\mr_vm_mini\\mr_util.o"
+    },
+    "mr_encode-release-mr_vm_mini": {
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj/local/x86/objs/mr_vm_mini/mr_encode.o",
+      "toolchain": "toolchain-mr_vm_mini",
+      "abi": "mr_vm_mini",
+      "artifactName": "mr_encode",
+      "files": [
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\mr\\mr_encode.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr/include -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr -DANDROID -O2 -DTARGET_MOD -DMTK_MOD -DMR_VERSION\u003d2011 -DMR_PLAT_DRAWTEXT -DMR_PLAT_U2C -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\objs\\mr_vm_mini\\mr_encode.o"
+    },
+    "mr_graphics-release-mr_vm_mini": {
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj/local/x86/objs/mr_vm_mini/mr_graphics.o",
+      "toolchain": "toolchain-mr_vm_mini",
+      "abi": "mr_vm_mini",
+      "artifactName": "mr_graphics",
+      "files": [
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\mr\\mr_graphics.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr/include -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr -DANDROID -O2 -DTARGET_MOD -DMTK_MOD -DMR_VERSION\u003d2011 -DMR_PLAT_DRAWTEXT -DMR_PLAT_U2C -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\objs\\mr_vm_mini\\mr_graphics.o"
+    },
+    "mr_unzip-release-mr_vm_mini": {
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj/local/x86/objs/mr_vm_mini/mr_unzip.o",
+      "toolchain": "toolchain-mr_vm_mini",
+      "abi": "mr_vm_mini",
+      "artifactName": "mr_unzip",
+      "files": [
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\mr\\mr_unzip.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr/include -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr -DANDROID -O2 -DTARGET_MOD -DMTK_MOD -DMR_VERSION\u003d2011 -DMR_PLAT_DRAWTEXT -DMR_PLAT_U2C -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\objs\\mr_vm_mini\\mr_unzip.o"
+    },
+    "mr_inflate-release-mr_vm_mini": {
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj/local/x86/objs/mr_vm_mini/mr_inflate.o",
+      "toolchain": "toolchain-mr_vm_mini",
+      "abi": "mr_vm_mini",
+      "artifactName": "mr_inflate",
+      "files": [
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\mr\\mr_inflate.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr/include -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/mr -DANDROID -O2 -DTARGET_MOD -DMTK_MOD -DMR_VERSION\u003d2011 -DMR_PLAT_DRAWTEXT -DMR_PLAT_U2C -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\objs\\mr_vm_mini\\mr_inflate.o"
+    },
+    "mrpoid-release-x86": {
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/release/obj/local/x86/libmrpoid.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "mrpoid",
+      "files": [
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\cport.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\dsm.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\emulator.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\encode.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\font\\font_sky16_2.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\lib\\JniUtils.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\lib\\TimeUtils.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\network.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\register_natives.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\src\\utils.c",
+          "flags": "-target i686-none-linux-android17 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/SDK/ndk/22.1.7171670/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src/lib -IH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/src/main/jni/src -DANDROID -DDSM_MINI -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libmrpoid.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    },
+    "toolchain-mr_vm_mini": {
+      "cCompilerExecutable": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

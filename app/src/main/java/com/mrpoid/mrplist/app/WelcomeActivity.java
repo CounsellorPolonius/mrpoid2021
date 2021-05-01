@@ -1,7 +1,6 @@
 package com.mrpoid.mrplist.app;
 
 import com.mrpoid.mrpliset.R;
-import com.edroid.common.utils.UmengUtils;
 
 import android.Manifest;
 import android.content.Intent;
@@ -39,11 +38,12 @@ public class WelcomeActivity extends AppCompatActivity {
 	}
 	
 	void gp3() {
-        String[] perms = { Manifest.permission.READ_PHONE_STATE};
+        String[] perms = { Manifest.permission.WRITE_EXTERNAL_STORAGE};
         if (!isgen(perms))
             gen(perms, 3);
         else
             go();
+
 	}
 
 	void gp1() {
@@ -52,14 +52,16 @@ public class WelcomeActivity extends AppCompatActivity {
 		    gen(perms, 1);
 		else
 		    gp2();
+
 	}
 
 	void gp2() {
-	    String[] perms = {Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION};
+	    String[] perms = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE};
         if (!isgen(perms))
             gen(perms, 2);
         else
             gp3();
+
 	}
 
 	void gen(String[] perms, int code) {
@@ -133,19 +135,5 @@ public class WelcomeActivity extends AppCompatActivity {
 			gp1();
 		} else
 		    go();
-	}
-
-	@Override
-	protected void onPause() {
-		UmengUtils.onPause(this);
-
-		super.onPause();
-	}
-
-	@Override
-	protected void onResume() {
-		super.onResume();
-
-		UmengUtils.onResume(this);
 	}
 }

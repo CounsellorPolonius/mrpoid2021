@@ -182,9 +182,9 @@ public class MrpoidSettingsActivity extends Activity {
 		public boolean onPreferenceTreeClick(PreferenceScreen ps, Preference p) {
 			if ("advanced".equals(p.getKey())) {
 				if (!MrpoidSettings.notHintAdvSet) {
-					new AlertDialog.Builder(getActivity()).setTitle(R.string.warn).setMessage("如果你不知道自己在干什么请离开这里！")
+					new AlertDialog.Builder(getActivity()).setTitle(R.string.warn).setMessage("If you don't know what you are doing please leave here!")
 							.setNegativeButton(R.string.ok, null)
-							.setPositiveButton("不在提醒", new DialogInterface.OnClickListener() {
+							.setPositiveButton("No Reminder", new DialogInterface.OnClickListener() {
 								@Override
 								public void onClick(DialogInterface dialog, int which) {
 									MrpoidSettings.notHintAdvSet = true;
@@ -196,7 +196,7 @@ public class MrpoidSettingsActivity extends Activity {
 				return true;
 			} else if (p == epMythroad) {
 				if (MrpoidSettings.differentPath) {
-					Toast.makeText(getActivity(), "请取消勾选 " + getString(R.string.run_under_multi_path) + " 选项!",
+					Toast.makeText(getActivity(), "Please uncheck " + getString(R.string.run_under_multi_path) + " in options!",
 							Toast.LENGTH_SHORT).show();
 				}
 				
@@ -263,7 +263,7 @@ public class MrpoidSettingsActivity extends Activity {
 			
 		} else if (id == 2) {
 			return new AlertDialog.Builder(this).setTitle(R.string.hint)
-					.setMessage("您修改了屏幕尺寸，并且选择了 \"不同分辨率在不同目录下运行\"意味着之前下载过的冒泡游戏都需要重新下载！")
+					.setMessage("You have modified the screen size and selected \"different resolutions to run in different directories\" which means previously downloaded games need to be downloaded again!")
 					.setNegativeButton(R.string.ok, new DialogInterface.OnClickListener() {
 						@Override
 						public void onClick(DialogInterface dialog, int which) {
@@ -276,7 +276,7 @@ public class MrpoidSettingsActivity extends Activity {
 						PackageManager.GET_ACTIVITIES);
 				
 				return new AlertDialog.Builder(this).setTitle(R.string.app_name)
-						.setMessage("版本 " + packageInfo.versionName + "\n\n" + getString(R.string.cpoy_right))
+						.setMessage("Version " + packageInfo.versionName + "\n\n" + getString(R.string.cpoy_right))
 						.setPositiveButton("确定", new DialogInterface.OnClickListener() {
 							@Override
 							public void onClick(DialogInterface dialog, int which) {

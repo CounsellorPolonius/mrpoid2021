@@ -1,139 +1,139 @@
 <resources>
 
-    <string name="app_name">Mrpoid</string>
-    <string name="settings">设置</string>
-    <string name="close">关闭</string>
-    <string name="other">其他</string>
-    <string name="usefull_set">常用设置</string>
-    <string name="detail_set">详细设置</string>
-    <string name="keypad_layout">键盘布局</string>
-    <string name="option">选项</string>
-    <string name="refresh">刷新</string>
-    <string name="scnshot">截屏</string>
-    <string name="size">大小</string>
-    <string name="mem_size">虚拟机内存</string>
-    <string name="set_background">设置背景</string>
-    <string name="ok">确定</string>
-    <string name="accept">接受</string>
-    <string name="refused">拒绝</string>
-    <string name="warn">警告</string>
-    <string name="hint">提示</string>
-    <string name="exit">退出</string>
-    <string name="cancel">取消</string>
-    <string name="about">关于</string>
-    <string name="pad_opacity">键盘透明度</string>
-    <string name="switch_keypad">切换键盘</string>
-    <string name="entry_background">后台运行</string>
-    <string name="float_view">浮动窗口</string>
+    <string name="app_name">Mythras</string>
+    <string name="settings">Settings</string>
+    <string name="close">Close</string>
+    <string name="other">Other</string>
+    <string name="usefull_set">Common Settings</string>
+    <string name="detail_set">Advaned Settings</string>
+    <string name="keypad_layout">Keypad Layout</string>
+    <string name="option">Options</string>
+    <string name="refresh">Refresh</string>
+    <string name="scnshot">Screenshot</string>
+    <string name="size">Size</string>
+    <string name="mem_size">VM Memory</string>
+    <string name="set_background">Set BG</string>
+    <string name="ok">Ok</string>
+    <string name="accept">Accept</string>
+    <string name="refused">Refuse</string>
+    <string name="warn">Warning</string>
+    <string name="hint">Hint</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="pad_opacity">Opacity</string>
+    <string name="switch_keypad">Switch Keypad</string>
+    <string name="entry_background">Background</string>
+    <string name="float_view">Floating Window</string>
     <string name="cpoy_right"></string>
-    <string name="video_settings">显示设置</string>
-    <string name="emu_settings">Mrpoid 设置</string>
-    <string name="scaling_mode">缩放模式</string>
-    <string name="scaling_mode_summery">显示在屏幕上的大小</string>
-    <string name="update_settings">更新设置</string>
-    <string name="auto_update">自动更新</string>
-    <string name="auto_update_sum">每周检测一次新版本</string>
-    <string name="check_update">立即检测</string>
-    <string name="check_update_sum">手动检测最新版本</string>
-    <string name="enable_vkeypad">虚拟键盘</string>
-    <string name="input_settings">输入设置</string>
-    <string name="other_settings">高级设置</string>
-    <string name="log_settings">日志设置</string>
-    <string name="show_log">显示日志</string>
+    <string name="video_settings">Display Settings</string>
+    <string name="emu_settings">Emulation Settings</string>
+    <string name="scaling_mode">Scaling</string>
+    <string name="scaling_mode_summery">Display Size</string>
+    <string name="update_settings">Update Settings</string>
+    <string name="auto_update">Auto Update</string>
+    <string name="auto_update_sum">Check for Updates, Weekly</string>
+    <string name="check_update">Check Update Now</string>
+    <string name="check_update_sum">Manually Detect Latest Version</string>
+    <string name="enable_vkeypad">Enable Virtual Keypad</string>
+    <string name="input_settings">Input Settings</string>
+    <string name="other_settings">Advanced Settings</string>
+    <string name="log_settings">Log Settings</string>
+    <string name="show_log">Show Logs</string>
     <string name="show_log_sum">在 Logcat 中显示 mrp API 调用日志</string>
-    <string name="log_filter">日志过滤器</string>
-    <string name="log_filter_sum">选择要显示的日志类型</string>
-    <string name="log_input">事件输入</string>
-    <string name="log_file">文件I/O</string>
-    <string name="log_net">网络</string>
+    <string name="log_filter">Log Filter</string>
+    <string name="log_filter_sum">Select Log Type</string>
+    <string name="log_input">Event Input</string>
+    <string name="log_file">File I/O</string>
+    <string name="log_net">Log Internet</string>
     <string name="log_mrplat">mr_plat/mr_platEx</string>
-    <string name="log_timer">定时器</string>
-    <string name="log_fw">框架</string>
+    <string name="log_timer">Timer</string>
+    <string name="log_fw">Frame</string>
     <string name="log_mrprintf">mr_printf</string>
-    <string name="platscreenbuf">系统屏幕缓冲</string>
-    <string name="platscreenbuf_summery">开启可以才可使用系统字体</string>
-    <string name="platdrawchar">使用系统字体</string>
-    <string name="platdrawchar_summery">使用系统字体作为 mrp 字体</string>
-    <string name="enableAntiAtial">开启画布抗锯齿</string>
-    <string name="enableAntiAtial_summery">模糊像素点，看起来更舒服</string>
-    <string name="orientation">屏幕方向</string>
-    <string name="screensize">屏幕尺寸</string>
-    <string name="screensize_summery">模拟 MTK 手机屏幕尺寸</string>
-    <string name="version">Mrpoid 版本</string>
-    <string name="version_summery">2.4-debug\nbuild by yichouangle@gmail.com\n2014-07-28 11:48:22\nMrpoid OpenSource All Right©2014</string>
-    <string name="changelog">变更日志</string>
-    <string name="mythroad_path">设置mythroad路径</string>
-    <string name="sdpath">设置SD卡路径</string>
-    <string name="sdpath_msg">正确格式  "/mnt/sdcard/"</string>
-    <string name="show_statusbar">显示状态栏</string>
-    <string name="no_key">我手机没按键</string>
-    <string name="show_mem_info">显示内存信息</string>
-    <string name="no_key_sum">当手机没有任何按键时需要改变一些操作习惯，比如 Nexus 系列！</string>
-    <string name="show_statusbar_sum">显示系统状态栏</string>
-    <string name="hint_click_to_back">点击返回</string>
-    <string name="fullscn_editor">全屏编辑框</string>
-    <string name="catch_volumekey">捕获音量键</string>
-    <string name="catch_volumekey_sum">音量键作为上下键</string>
-    <string name="enable_exram">启用拓展内存</string>
-    <string name="enable_exram_sum">有些游戏需要拓展内存，开启后闪退的可能性会增加！</string>
-    <string name="use_full_dsm">完整版虚拟机</string>
-    <string name="use_full_dsm_sum">使用带 mr 解释功能的虚拟机，可能没有精简版稳定！</string>
-    <string name="limit_input_length">输入字数限制</string>
-    <string name="limit_input_length_sum">若不限制闪退的可能性会增加！</string>
-    <string name="platform">平台</string>
-    <string name="platform_sum">若闪退请改为 Linux.</string>
-    <string name="thread">线程模式</string>
-    <string name="thread_sum">若闪退请改为 主线程.</string>
-    <string name="dpad_at_left">方向键盘在左边</string>
-    <string name="title_memory">内存设置</string>
-    <string name="title_paths">路径设置</string>
-    <string name="run_under_multi_path">不同分辨率不同路径</string>
-    <string name="run_under_multi_path_sum">选择不同分辨率时在不同路径下运行，避免不全屏问题。</string>
-    <string name="show_float_button">显示浮动按钮</string>
-    <string name="float_button_func">浮动按钮功能</string>
+    <string name="platscreenbuf">System Screen Buffer</string>
+    <string name="platscreenbuf_summery">System fonts can only be used when enabled.</string>
+    <string name="platdrawchar">Use System Fonts</string>
+    <string name="platdrawchar_summery">Use system font as MRP font.</string>
+    <string name="enableAntiAtial">Turn on canvas anti-aliasing.</string>
+    <string name="enableAntiAtial_summery">Blur Pixels</string>
+    <string name="orientation">Screen Orientation</string>
+    <string name="screensize">Screen Size</string>
+    <string name="screensize_summery">Simulate MTK Phone Screen Size</string>
+    <string name="version">Mythras Version</string>
+    <string name="version_summery">1.0\nBuild by Polonius\n2021-04-28 \nMrpoid+Mythras OpenSource All Right©2021</string>
+    <string name="changelog">Changelog</string>
+    <string name="mythroad_path">Set Mythroad Path</string>
+    <string name="sdpath">Set SD Card Path</string>
+    <string name="sdpath_msg">Format:  "/mnt/sdcard/"</string>
+    <string name="show_statusbar">Show Status Bar</string>
+    <string name="no_key">Phone Has No Buttons</string>
+    <string name="show_mem_info">Display Memory Information</string>
+    <string name="no_key_sum">When the phone does not have any buttons, some operating habits need to be changed, such as Nexus series!</string>
+    <string name="show_statusbar_sum">Show System Status Bar</string>
+    <string name="hint_click_to_back">Click to go back.</string>
+    <string name="fullscn_editor">Fullscreen Editor</string>
+    <string name="catch_volumekey">Capture Volume Key</string>
+    <string name="catch_volumekey_sum">Use Volume Keys are Up/Down.</string>
+    <string name="enable_exram">Enable Extended Memory</string>
+    <string name="enable_exram_sum">Some games require extended memory, some may crash more after opening if not enabled!</string>
+    <string name="use_full_dsm">Full Version VM</string>
+    <string name="use_full_dsm_sum">Using a VM with MR interpretation may not be as stable as the main version. </string>
+    <string name="limit_input_length">Input Word Limit</string>
+    <string name="limit_input_length_sum">If you dont limit input the possibility of flashbacks may increase. </string>
+    <string name="platform">Platform</string>
+    <string name="platform_sum">If it crashes change to Linux.</string>
+    <string name="thread">Thread Mode</string>
+    <string name="thread_sum">If facing crashes, change to main thread.</string>
+    <string name="dpad_at_left">Dpad at Left</string>
+    <string name="title_memory">Memory Settings</string>
+    <string name="title_paths">Path Setting</string>
+    <string name="run_under_multi_path">Run under different resolutions and paths.</string>
+    <string name="run_under_multi_path_sum">Run under different paths when choosing different resolutions to avoid the problem of imporper fullscreen. </string>
+    <string name="show_float_button">Show Floating Buttons</string>
+    <string name="float_button_func">Floating Button Functions</string>
     <string name="key_sprite">按键精灵</string>
-    <string name="enable_touch_virb">按键震动</string>
-    <string name="tools">工具箱</string>
+    <string name="enable_touch_virb">Enable Key Vibration</string>
+    <string name="tools">Tools</string>
     
-    <string name="more">更多...</string>
-    <string name="switchStatusbar">状态栏</string>
-    <string name="switchAnti">抗锯齿</string>
-    <string name="switchVirb">按键震动</string>
-    <string name="exit_all">完全退出</string>
+    <string name="more">More...</string>
+    <string name="switchStatusbar">Status Bar</string>
+    <string name="switchAnti">Anti-Aliasing</string>
+    <string name="switchVirb">Key Vibration</string>
+    <string name="exit_all">Quit All</string>
     
-    <string name="create">创建</string>
-    <string name="choose_one">请选择一个</string>
-    <string name="setup_wizard">设置向导</string>
+    <string name="create">Create</string>
+    <string name="choose_one">Please Choose One</string>
+    <string name="setup_wizard">Setup Wizard</string>
     
-    <string name="setup_wizard_sum">在不清楚每个设置干嘛前，先阅读设置向导！</string>
+    <string name="setup_wizard_sum">Before you dont know what each setting is for, read the setup guide first!</string>
     <string name="setup_wizard_uri">http://edroid.sinaapp.com/pages/mrpoid-steup.php</string>
     
-    <string name="private_dir">私有目录</string>
-    <string name="private_dir_sum">将mrp文件存储在私有目录，需要root你才能访问这些文件！</string>
+    <string name="private_dir">Private Directory</string>
+    <string name="private_dir_sum">Store mrp files in a private directory, you need root to access these files!</string>
 
-    <string name="restart_mrpoid">重启 Mrpoid 内核</string>
-    <string name="hit_slid_to_showmenu">屏幕边缘侧滑可以弹出菜单哦！</string>
+    <string name="restart_mrpoid">Restart Mrpoid Kernel</string>
+    <string name="hit_slid_to_showmenu">Sliding the edge of the screen can pop up a menu！</string>
 
-    <string name="emu_title">选择模拟器</string>
+    <string name="emu_title">Select Emulator</string>
 
     <string-array name="float_button_func_entries">
-        <item>菜单</item>
-        <item>缩放模式</item>
+        <item>Menu</item>
+        <item>Zoom Mode</item>
     </string-array>
     <string-array name="scaling_mode_entries">
-        <item>全屏</item>
-        <item>适应屏幕</item>
+        <item>Full Screen</item>
+        <item>Fit to Screen</item>
         <item>x2</item>
-        <item>原始大小</item>
+        <item>Native Resolution</item>
     </string-array>
     
     <string-array name="emu_entries">
-        <item>模拟器0</item>
-        <item>模拟器1</item>
-        <item>模拟器2</item>
-        <item>模拟器3</item>
-        <item>模拟器4</item>
-        <item>模拟器5</item>
+        <item>Emulator 0</item>
+        <item>Emulator 1</item>
+        <item>Emulator 2</item>
+        <item>Emulator 3</item>
+        <item>Emulator 4</item>
+        <item>Emulator 5</item>
     </string-array>
 
     <string-array name="emu_entry_values">
@@ -173,19 +173,19 @@
         <item>8</item>
     </string-array>
     <string-array name="emu_menu_items_options">
-        <item>后台运行</item>
-        <item>缩放模式</item>
-        <item>屏幕截图</item>
-        <item>切换键盘</item>
-        <item>键盘透明</item>
+        <item>Background Process</item>
+        <item>Zoom Mode</item>
+        <item>Screenshots</item>
+        <item>Switch Keyboard</item>
+        <item>Transparent Keyboard</item>
         <item>按键精灵</item>
-        <item>退出运行</item>
-        <item>状态栏</item>
-        <item>抗锯齿</item>
-        <item>按键震动</item>
-        <item>编辑字数</item>
-        <item>全屏编辑</item>
-        <item>完全退出</item>
+        <item>Exit</item>
+        <item>Status Bar</item>
+        <item>Anti-Aliasing</item>
+        <item>Key Vibration</item>
+        <item>Edit Word Count</item>
+        <item>Full Screen Editing</item>
+        <item>Exit All</item>
     </string-array>
 
 </resources>

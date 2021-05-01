@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mrpoid</string>
+    <string name="app_name">Mythras</string>
     <string name="settings">Settings</string>
     <string name="close">Close</string>
     <string name="other">Others</string>
@@ -22,7 +22,7 @@
     <string name="cancel">Cancel</string>
     <string name="about">About</string>
     <string name="screensize">Screen Size</string>
-    <string name="orientation">Screen Orition</string>
+    <string name="orientation">Screen Orientation</string>
     <string name="version">Version</string>
     <string name="changelog">Change Log</string>
     <string name="scaling_mode">Scalling Mode</string>

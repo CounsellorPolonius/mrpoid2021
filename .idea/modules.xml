@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mrpoid2018.iml" filepath="$PROJECT_DIR$/mrpoid2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mrpoid2021.iml" filepath="$PROJECT_DIR$/.idea/modules/mrpoid2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mrpoid2021.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mrpoid2021.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/mrpoid2021.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/mrpoid2021.lib.iml" />
     </modules>
   </component>
 </project>

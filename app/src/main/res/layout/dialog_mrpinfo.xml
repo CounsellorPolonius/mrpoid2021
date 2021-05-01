@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="应用标题"
+            android:text="Application Title"
             android:singleLine="true"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:singleLine="true"
-            android:text="应用名称"
+            android:text="Application Name"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:singleLine="true"
-            android:text="应用作者"
+            android:text="Author/Developer"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:singleLine="true"
-            android:text="应用版本"
+            android:text="Application Version"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:singleLine="true"
-            android:text="应用ID"
+            android:text="Application ID"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:singleLine="true"
-            android:text="应用介绍"
+            android:text="Application Intro"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText

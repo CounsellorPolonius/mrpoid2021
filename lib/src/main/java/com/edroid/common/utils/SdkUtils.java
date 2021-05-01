@@ -31,15 +31,15 @@ public final class SdkUtils {
 	}
 	
 	public static void sendEvent(Context context, String id, String data) {
-		UmengUtils.onEvent(context, id, data);
+		//UmengUtils.onEvent(context, id, data);
 	}
 	
 	public static void onPause(Context context) {
-		UmengUtils.onPause(context);
+		//UmengUtils.onPause(context);
 	}
 
 	public static void onResume(Context context) {
-		UmengUtils.onResume(context);
+		//UmengUtils.onResume(context);
 	}
 }
 

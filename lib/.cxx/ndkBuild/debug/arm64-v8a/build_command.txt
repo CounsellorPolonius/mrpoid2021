@@ -1,0 +1,18 @@
+                Executable : H:\Users\Bishop\Desktop\Homework\MAXD\ANDROID\SDK\ndk\22.1.7171670\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=H:\Users\Bishop\Desktop\Homework\MAXD\ANDROID\mrpoid2018\lib\src\main\jni\Android.mk
+NDK_APPLICATION_MK=H:\Users\Bishop\Desktop\Homework\MAXD\ANDROID\mrpoid2018\lib\src\main\jni\Application.mk
+APP_ABI=arm64-v8a
+NDK_ALL_ABIS=arm64-v8a
+NDK_DEBUG=1
+APP_PLATFORM=android-17
+NDK_OUT=H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=H:\Users\Bishop\Desktop\Homework\MAXD\ANDROID\mrpoid2018\lib\build\intermediates\ndkBuild\debug\lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+Build command args:

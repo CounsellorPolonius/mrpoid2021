@@ -1,0 +1,68 @@
+{
+  "buildFiles": [
+    "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk",
+    "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "mr_graphics-debug-mr_vm_mini": {
+      "artifactName": "mr_graphics",
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/mr_vm_mini/mr_graphics.o",
+      "abi": "mr_vm_mini",
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\objs-debug\\mr_vm_mini\\mr_graphics.o",
+      "runtimeFiles": []
+    },
+    "mythroad_mini-debug-mr_vm_mini": {
+      "artifactName": "mythroad_mini",
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/mr_vm_mini/mythroad_mini.o",
+      "abi": "mr_vm_mini",
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\objs-debug\\mr_vm_mini\\mythroad_mini.o",
+      "runtimeFiles": []
+    },
+    "mr_encode-debug-mr_vm_mini": {
+      "artifactName": "mr_encode",
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/mr_vm_mini/mr_encode.o",
+      "abi": "mr_vm_mini",
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\objs-debug\\mr_vm_mini\\mr_encode.o",
+      "runtimeFiles": []
+    },
+    "mr_gb2312-debug-mr_vm_mini": {
+      "artifactName": "mr_gb2312",
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/mr_vm_mini/mr_gb2312.o",
+      "abi": "mr_vm_mini",
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\objs-debug\\mr_vm_mini\\mr_gb2312.o",
+      "runtimeFiles": []
+    },
+    "mr_util-debug-mr_vm_mini": {
+      "artifactName": "mr_util",
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/mr_vm_mini/mr_util.o",
+      "abi": "mr_vm_mini",
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\objs-debug\\mr_vm_mini\\mr_util.o",
+      "runtimeFiles": []
+    },
+    "mrpoid-debug-arm64-v8a": {
+      "artifactName": "mrpoid",
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libmrpoid.so",
+      "abi": "arm64-v8a",
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libmrpoid.so",
+      "runtimeFiles": []
+    },
+    "mr_inflate-debug-mr_vm_mini": {
+      "artifactName": "mr_inflate",
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/mr_vm_mini/mr_inflate.o",
+      "abi": "mr_vm_mini",
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\objs-debug\\mr_vm_mini\\mr_inflate.o",
+      "runtimeFiles": []
+    },
+    "mr_unzip-debug-mr_vm_mini": {
+      "artifactName": "mr_unzip",
+      "buildCommand": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dH:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\lib H:/Users/Bishop/Desktop/Homework/MAXD/ANDROID/mrpoid2018/lib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/mr_vm_mini/mr_unzip.o",
+      "abi": "mr_vm_mini",
+      "output": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\objs-debug\\mr_vm_mini\\mr_unzip.o",
+      "runtimeFiles": []
+    }
+  }
+}

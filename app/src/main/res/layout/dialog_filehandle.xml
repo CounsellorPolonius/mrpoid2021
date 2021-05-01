@@ -9,7 +9,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="路径："
+        android:text="Filepath："
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -34,13 +34,13 @@
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="改名" />
+        android:text="Rename" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="打开" />
+        android:text="Turn On" />
 
 </LinearLayout>

@@ -50,7 +50,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.edroid.common.utils.UmengUtils;
 import com.mrpoid.MrpoidMain;
 import com.mrpoid.app.HelpActivity;
 import com.mrpoid.app.MrpoidSettingsActivity;
@@ -90,7 +89,7 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener,
 	};
 	
 	private static final String[] PAGE_TITLES = {
-			"最近打开", "本地浏览"
+			"Recent", "Local Files"
 	};
 	
 	private MyFavoriteFragment favoriteFmg;
@@ -186,7 +185,7 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener,
 		try {
 			PackageInfo info;
 			info = getPackageManager().getPackageInfo(getPackageName(), 0);
-			((TextView)findViewById(R.id.tvVersion)).setText("版本: " + info.versionName);
+			((TextView)findViewById(R.id.tvVersion)).setText("Version: " + info.versionName);
 		} catch (Exception e) {
 		}
 	}
@@ -302,7 +301,7 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener,
 				break;
 			}
 			case 1: {
-				HelpActivity.show(getActivity(), Uri.parse("https://github.com/Yichou/mrpoid2018"));
+				HelpActivity.show(getActivity(), Uri.parse("https://github.com/CounsellorPolonius/mythras"));
 				break;
 			}
 			case 2: {
@@ -331,30 +330,6 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener,
             mDrawerLayout.closeDrawer(mStartDrawer);
         }
     }
-	
-	@Override
-	protected void onPause() {
-		UmengUtils.onPause(getActivity());
-
-		super.onPause();
-	}
-
-	@Override
-	protected void onResume() {
-		super.onResume();
-		Log.i(TAG, "onResume");
-
-		UmengUtils.onResume(getActivity());
-
-		againToExit = false;
-		
-		if (needRefresh) {
-			// 刷新列表
-			if (listFmg != null)
-				listFmg.reload();
-			needRefresh = false;
-		}
-	}
 
 	@Override
 	protected void onDestroy() {

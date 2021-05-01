@@ -1,0 +1,130 @@
+{
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 17,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cxxBuildFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\.cxx\\ndkBuild\\debug\\arm64-v8a",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\.cxx\\ndkBuild\\debug\\arm64-v8a",
+  "variant": {
+    "buildSystemArgumentList": [],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "NDK_BUILD",
+      "cmakeToolchainFile": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\.cxx",
+      "gradleModulePathName": ":lib",
+      "intermediatesFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates",
+      "makeFile": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\src\\main\\jni\\Android.mk",
+      "moduleBuildFile": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build.gradle",
+      "moduleRootFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkVersion": "22.1.7171670",
+      "project": {
+        "compilerSettingsCacheFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\.cxx",
+        "cxxFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018",
+        "sdkFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\SDK\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "variantName": "debug",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "prefabDirectory": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\.cxx\\ndkBuild\\debug\\prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "H:\\Users\\Bishop\\Desktop\\Homework\\MAXD\\ANDROID\\mrpoid2018\\lib\\.cxx\\ndkBuild\\debug\\prefab\\arm64-v8a"
+}
